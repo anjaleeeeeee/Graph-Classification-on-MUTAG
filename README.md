@@ -73,11 +73,7 @@ The implemented methods were evaluated using standard graph classification metri
 
 ## Publication
 
-This work contributed to the following publication:
-
-**Graph-Based Classification Methods for Detecting Mutagenicity**
-
-Published as a Book Chapter by AGROBIOS (India), 2026.
+This work contributed to the book chapter **"Graph-Based Classification Methods for Detecting Mutagenicity"**, published in **_Emerging Dimensions in Biotechnology: Research, Innovation and Application (Volume 1)_** by AGROBIOS (India), 2026.
 
 ---
 

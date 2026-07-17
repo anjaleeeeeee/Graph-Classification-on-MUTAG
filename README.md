@@ -97,7 +97,7 @@ The implemented methods were evaluated using standard graph classification metri
 
 ### Performance Comparison
 
-![Results](images/accuracy_f1_comparison.png)
+![Results](images/accuracy_f1_comp.png)
 
 ---
 

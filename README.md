@@ -56,8 +56,7 @@ The project compares different graph classification approaches, including:
 ```
 Graph-Classification-on-MUTAG/
 │
-├── notebook/
-│   └── Graph_Classification_MUTAG.ipynb
+├── Graph_Classification_MUTAG.ipynb
 ├── README.md
 ├── requirements.txt
 ├── LICENSE

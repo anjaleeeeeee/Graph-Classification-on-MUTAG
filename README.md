@@ -4,6 +4,12 @@ A comparative study of graph classification techniques on the MUTAG dataset usin
 
 ---
 
+## Workflow
+
+![Workflow](images/workflow.png)
+
+---
+
 ## Overview
 
 Graph classification is a fundamental task in graph machine learning, where an entire graph is assigned a class label. The MUTAG dataset consists of chemical compounds represented as graphs, with the objective of classifying each compound as mutagenic or non-mutagenic.
@@ -65,9 +71,33 @@ Graph-Classification-on-MUTAG/
 
 ---
 
+## How to Run
+
+1. Clone the repository.
+2. Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open `graph_classification_mutag.ipynb` in Jupyter Notebook or JupyterLab.
+4. Run the notebook sequentially.
+
+---
+
+## Sample Graph
+
+![MUTAG](images/mutag_graph.png)
+
+---
+
 ## Results
 
 The implemented methods were evaluated using standard graph classification metrics to compare their predictive performance on the MUTAG dataset. The study highlights the strengths and limitations of traditional graph learning techniques and Graph Neural Networks for molecular graph classification.
+
+### Performance Comparison
+
+![Results](images/accuracy_f1_comparison.png)
 
 ---
 

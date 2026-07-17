@@ -97,11 +97,24 @@ pip install -r requirements.txt
 
 ## Results
 
-The implemented methods were evaluated using standard graph classification metrics to compare their predictive performance on the MUTAG dataset. The study highlights the strengths and limitations of traditional graph learning techniques and Graph Neural Networks for molecular graph classification.
+The models were evaluated using Accuracy, Precision, Recall, and F1-Score on the MUTAG dataset.
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|---------:|----------:|-------:|---------:|
+| Weisfeiler-Lehman Kernel | 0.763 | 0.833 | 0.800 | 0.816 |
+| Shortest Path Kernel | **0.833** | **0.909** | 0.833 | 0.870 |
+| Node2Vec | 0.763 | 0.767 | 0.920 | 0.836 |
+| Edge2Vec | **0.842** | 0.880 | 0.880 | **0.880** |
+| DeepWalk | 0.763 | 0.750 | **0.960** | 0.842 |
+| GCN | 0.778 | 0.833 | 0.833 | 0.833 |
+| GraphSAGE | 0.771 | 0.793 | 0.888 | 0.838 |
 
 ### Performance Comparison
 
-![Results](images/accuracy_f1_comp.png)
+![Performance Comparison](images/accuracy_f1_comp.png)
+
+The comparative analysis demonstrates the strengths and trade-offs of graph kernels, graph embedding methods, and Graph Neural Networks for molecular graph classification. While **Edge2Vec** achieved the highest overall Accuracy and F1-Score in this implementation, each method exhibited different strengths across the evaluation metrics.
+
 
 ---
 

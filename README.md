@@ -84,7 +84,7 @@ Graph-Classification-on-MUTAG/
 pip install -r requirements.txt
 ```
 
-3. Open `graph_classification_mutag.ipynb` in Jupyter Notebook or JupyterLab.
+3. Open `MUTAG-GraphClassification.ipynb` in Jupyter Notebook or JupyterLab.
 4. Run the notebook sequentially.
 
 ---

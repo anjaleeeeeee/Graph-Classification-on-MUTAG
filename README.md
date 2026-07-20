@@ -66,7 +66,7 @@ Graph-Classification-on-MUTAG/
 ├──images/
 │   ├── workflow.png
 │   ├──mutag_graph.png
-│   ├──accuracy_f1_comp.png
+│   └──accuracy_f1_comp.png
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
